@@ -12,3 +12,4 @@ const func = (num) => {
 };
 ```
 ### Education: RS-School
+### English level: A1 (Elementary)
