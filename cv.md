@@ -1,10 +1,10 @@
 # Ivan Konovalov
-* **Contacts:**
+### * **Contacts:**
     * Discord(rs-school):@Seyk668
     * E-mail: ikkonovalov@mail.ru
     * Telegram: @Ivanjojoj
 ### My goal for today is to become a junior front-end developer.
-* **Skills:**
+### * **Skills:**
     * HTML
     * CSS/SASS
     * JavaScript
@@ -21,6 +21,7 @@ const func = (num) => {
 ```
 ### Education:
 **University:** *Saratov State University*
+
 **Courses:** *RS-School*
 ### English level:
 A1 (Elementary)
