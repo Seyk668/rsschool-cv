@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: 'Monserrat', sans-serif;
+    box-sizing: border-box;
+    background: #6C8AD5;
+}
+
+.container {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1200px;
+}
+
+.header__container {
+    width: 100%;
+    display: flex;
+    text-transform: uppercase;
+    background-color: black;
+    text-align: center;
+}
+
+.header__photo {
+    width: 30%;
+    display: flex;
+    overflow: hidden;
+}
