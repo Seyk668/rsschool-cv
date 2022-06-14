@@ -1,8 +1,8 @@
 # Ivan Konovalov
 ## Discord(rs-school):@Seyk668 , E-mail: ikkonovalov@mail.ru, Telegram: @Ivanjojoj
 ### My goal for today is to become a junior front-end developer.
-### **Skills:** HTML, CSS, SASS, , JavaScript, GULP, GIT.
-**Code:**
+### **Skills:** HTML, CSS, SASS, JavaScript, GULP, GIT.
+### Code:
 ```
 const func = (num) => {
   if (num > 0) {
@@ -11,4 +11,4 @@ const func = (num) => {
   return num + 1;
 };
 ```
-### Education
+### Education: RS-School
