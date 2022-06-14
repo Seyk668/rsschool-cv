@@ -3,14 +3,17 @@
 * Discord(rs-school):@Seyk668
 * E-mail: ikkonovalov@mail.ru
 * Telegram: @Ivanjojoj
+
 ## About me
 My goal for today is to become a junior front-end developer.
+
 ## Skills
 * HTML
 * CSS/SASS
 * JavaScript
 * GULP
 * GIT
+
 ## Code Example:
 ```
 const func = (num) => {
