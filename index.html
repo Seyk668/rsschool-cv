@@ -13,15 +13,105 @@
         <div class="container">
             <div class="header__container">
                 <div class="header__photo">
-                    <img src="/rsschool-cv/images/avatar.jpg" alt="Аватар">
+                    <img src="avatar.jpg" alt="Аватар">
                 </div>
                 <div class="header__right">
-                    <nav class="header__nav"></nav>
-                    <div class="header__about"></div>
+                    <nav class="header__nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#about" class="nav__link">about</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#skills" class="nav__link">skills</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#code" class="nav__link">code</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#contacts" class="nav__link">contacts</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__about">
+                        <h1 class="header__title">Ivan Konovalov</h1>
+                        <h2 class="header__subtitle">RS School student</h2>
+                    </div>
+                </div>
+            </div><!--header__container-->
+        </div> <!--Container-->
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="main__container">
+                <aside class="sidebar">
+                    <div class="education">
+                        <h2 class="header__subtitle">education:</h2>
+                        <hr>
+                        <div class="education__title">Saratov State University</div>
+                        <div class="education__subtitle">Applied informatics in sociology</div>
+                    </div>
+                    <div class="skills" id="skills">
+                        <h2 class="header__subtitle">skills:</h2>
+                        <hr>
+                        <ul class="skills__list">
+                            <li class="skills__item">HTML</li>
+                            <li class="skills__item">CSS</li>
+                            <li class="skills__item">SASS</li>
+                            <li class="skills__item">GULP</li>
+                            <li class="skills__item">GIT</li>
+                            <li class="skills__item">JavaScript(in process...)</li>
+                        </ul>
+                    </div>
+                    <div class="contacts" id="contacts">
+                        <h2 class="header__subtitle">contacts:</h2>
+                        <hr>
+                        <ul class="contacts__list">
+                            <li class="contacts__item">Phone: +7(987)350-94-45</li>
+                            <li class="contacts__item">Email: ikkonovalov@mail.ru</li>
+                            <li class="contacts__item">Telegram: @Ivanjojoj</li>
+                    </div>
+                </aside>
+                <div class="main__right">
+                    <div class="main__about" id="about">
+                        <h3 class="main__header">About me:</h3>
+                            <hr>
+                            <p class="main__text">
+                                I am 24 years old. I am currently a 4th year student at the university. I really want to become a front-end developer.</p>
+                    </div>
+                    <div class="code" id="code">
+                        <h3 class="main__header">Code Example:</h3>
+                        <hr>
+                        <pre>
+                            <code class="code__text">
+                    document.querySelector('html').onclick = function(){
+                    alert('Ouch! Stop poking me!');
+                    }
+                            </code>
+                        </pre>
+                    </div>
                 </div>
             </div>
         </div>
-    </header>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__item">
+                    <a href="https://rs.school/js/">
+                        <img src="../rsschool-cv/rs_school_js.svg" alt="RS School" class="footer__img">
+                    </a>
+                </div>
+                <div class="footer__data">Created in 2022</div>
+                <div class="footer__item">
+                    <a href="https://github.com/Seyk668">
+                        <img src="../rsschool-cv/github.png" alt="Github" class="footer__img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
